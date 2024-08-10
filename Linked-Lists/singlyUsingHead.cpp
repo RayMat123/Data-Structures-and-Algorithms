@@ -142,6 +142,8 @@ int main(){
 
     l.insert(6, 7);
 
+    l.delete_node(3);
+
     l.print();
 
     return 0;
