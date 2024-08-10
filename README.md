@@ -22,3 +22,6 @@ Data Structures and Algorithms in C++
 ### Time Complexity
 ![Time Complexity Chart](./assets/time-complexity.jpg)
 
+Time Complexity of different Data Structures and Algorithms
+
+![Big O Cheatsheet](./assets/big-o-cheat-sheet-poster.png)
