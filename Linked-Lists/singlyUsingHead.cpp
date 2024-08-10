@@ -136,7 +136,7 @@ private:
 int main(){
     int arr[] = {1, 2, 3, 4, 5};
 
-    List l(arr, 5);
+    List<int> l(arr, 5);
 
     l.push_front(0);
 
