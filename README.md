@@ -19,8 +19,6 @@ Data Structures and Algorithms in C++
 3. Queue Implementation Linked Lists
 - Hash Table
 
-# ---
-
 ### Time Complexity
 ![Time Complexity Chart](./assets/time-complexity.jpg)
 
