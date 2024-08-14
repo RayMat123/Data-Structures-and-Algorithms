@@ -18,6 +18,9 @@ Data Structures and Algorithms in C++
 2. Queue Implementation using Dynamic Array or Vector
 3. Queue Implementation Linked Lists
 - Hash Table
+1. Hash Function
+2. Open Addressing
+3. Chaining
 
 ### Time Complexity
 ![Time Complexity Chart](./assets/time-complexity.jpg)
