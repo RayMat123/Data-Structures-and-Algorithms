@@ -1,6 +1,6 @@
 # Data-Structures-and-Algorithms
 Data Structures and Algorithms in C++
----
+
 ### Elementary Data Structures
 - Array
 - Matrices
