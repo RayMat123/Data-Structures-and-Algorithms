@@ -1,7 +1,7 @@
 # Data-Structures-and-Algorithms
 
 
-### Elementary Data Structures
+## Elementary Data Structures
 - Array
 - Matrices
 - Linked List
@@ -24,7 +24,7 @@
 
 <hr style="border:2px solid gray">
 
-### Time Complexity
+## Time Complexity
 ![Time Complexity Chart](./assets/time-complexity.jpg)
 
 - **O(1):** 
@@ -41,3 +41,36 @@ Log-linear time complexity, operations that divide the problem into smaller subp
 Time Complexity of different Data Structures and Algorithms
 
 ![Big O Cheatsheet](./assets/big-o-cheat-sheet-poster.png)
+
+<hr style="border:2px solid gray">
+
+## Sorting Algorithms
+
+- Selection Sort
+- Bubble Sort
+- Insertion Sort 
+- Merge Sort 
+- HeapSort 
+- QuickSort 
+- Counting Sort 
+- Radix Sort 
+- Bucket Sort 
+- Bingo Sort
+- ShellSort
+- TimSort
+- Comb Sort
+- Pigeonhole Sort
+- Cycle Sort
+- Cocktail Sort
+- Strand Sort
+- Bitonic Sort
+- Pancake sorting
+- BogoSort or Permutation Sort
+- Gnome Sort
+- Sleep Sort – The King of Laziness
+- Structure Sorting in C++
+- Stooge Sort
+- Tag Sort (To get both sorted and original)
+- Tree Sort
+- Odd-Even Sort / Brick Sort
+- 3-way Merge Sort
