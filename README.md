@@ -1,4 +1,5 @@
 # Data-Structures-and-Algorithms
+<hr style="border:2px solid gray">
 Data Structures and Algorithms in C++
 ---
 ### Elementary Data Structures
