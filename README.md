@@ -22,8 +22,21 @@ Data Structures and Algorithms in C++
 2. Open Addressing
 3. Chaining
 
+<hr style="border:2px solid gray">
+
 ### Time Complexity
 ![Time Complexity Chart](./assets/time-complexity.jpg)
+
+- **O(1):** 
+Constant time complexity, operations that take the same time regardless of input size.
+- **O(N):** 
+Linear time complexity, operations that scale linearly with input size.
+- **O(N^2):** 
+Quadratic time complexity, operations that involve nested iterations over input data.
+- **O(logN):** 
+Logarithmic time complexity, operations that reduce the problem size in each step.
+- **O(NlogN):** 
+Log-linear time complexity, operations that divide the problem into smaller subproblems and process each independently.
 
 Time Complexity of different Data Structures and Algorithms
 
