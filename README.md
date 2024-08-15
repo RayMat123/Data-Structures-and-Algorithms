@@ -46,31 +46,49 @@ Time Complexity of different Data Structures and Algorithms
 
 ## Sorting Algorithms
 
+### Core Sorting Algorithms to Master
+
 - Selection Sort
 - Bubble Sort
 - Insertion Sort 
 - Merge Sort 
 - HeapSort 
-- QuickSort 
+- QuickSort (highly efficient)
 - Counting Sort 
 - Radix Sort 
 - Bucket Sort 
-- Bingo Sort
 - ShellSort
 - TimSort
+- 3-way Merge Sort
+
+### Less common but useful to know
+
 - Comb Sort
-- Pigeonhole Sort
-- Cycle Sort
-- Cocktail Sort
-- Strand Sort
-- Bitonic Sort
-- Pancake sorting
-- BogoSort or Permutation Sort
-- Gnome Sort
-- Sleep Sort – The King of Laziness
-- Structure Sorting in C++
-- Stooge Sort
-- Tag Sort (To get both sorted and original)
 - Tree Sort
 - Odd-Even Sort / Brick Sort
-- 3-way Merge Sort
+
+
+<hr style="border:2px solid gray">
+
+## Searching Algorithms
+
+### Core Searching Algorithms to Master
+
+- Linear Search 
+- Binary Search (important)
+- Hashing 
+- Tree-based Search 
+1. Binary Tree Search
+2. AVL Tree Search
+3. Red-Bliack Tree Search
+4. B-Tree Search
+5. Trie (Prefix) Tree Search
+- String Searching 
+
+### Less common but useful to know
+
+- Interpolation Search 
+- Ternary Search 
+- Jump Search 
+- Exponential Search
+- Fibonacci Search 
