@@ -1,5 +1,8 @@
 # Data-Structures-and-Algorithms
 
+## Disclaimer
+
+This repository contains notes for my personal study of data structures and algorithms. The notes are derived from the book "Introduction to Algorithms" by Cormen, Leiserson, Rivest, and Stein (CLRS), and the lecture notes are taken from course videos of MIT's course Introduction to Algorithms (6.042/SMA 5005). This repository is intended for educational purposes only. While you are welcome to use it for your own learning, contributions are not currently accepted.
 
 ## Elementary Data Structures
 - Array
