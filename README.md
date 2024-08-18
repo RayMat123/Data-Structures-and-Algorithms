@@ -53,6 +53,18 @@ Time Complexity of different Data Structures and Algorithms
 - Insertion Sort
 ```
 //pseudocode
+
+Insertion-Sort(A, n){   // Sorts A[1...n]
+    // where A = array and n = Size of A
+
+    for j <- 2 to n
+        do key <- A[j]
+        i <- j - 1
+        while i > 0 and A[i] > key
+            do A[i + 1] <- A[i]
+                i <- i - 1 
+        A[i + 1] <- key
+}
 ```
 - Merge Sort 
 - HeapSort 
