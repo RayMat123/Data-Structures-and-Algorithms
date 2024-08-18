@@ -51,8 +51,7 @@ Time Complexity of different Data Structures and Algorithms
 - Selection Sort
 - Bubble Sort
 - Insertion Sort
-```
-//pseudocode
+```pseudocode
 
 Insertion-Sort(A, n){   // Sorts A[1...n]
     // where A = array and n = Size of A
