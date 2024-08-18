@@ -31,7 +31,7 @@
 Constant time complexity, operations that take the same time regardless of input size.
 - **O(N):** 
 Linear time complexity, operations that scale linearly with input size.
-- **O(N^2):** 
+- **O(N<sup>2</sup>):** 
 Quadratic time complexity, operations that involve nested iterations over input data.
 - **O(logN):** 
 Logarithmic time complexity, operations that reduce the problem size in each step.
@@ -45,6 +45,7 @@ Time Complexity of different Data Structures and Algorithms
 <hr style="border:2px solid gray">
 
 ## Sorting Algorithms
+
 
 ### Core Sorting Algorithms to Master
 
@@ -115,6 +116,152 @@ Merge-Sort(A, p, r){
 - ShellSort
 - TimSort
 - 3-way Merge Sort
+
+<table>
+    <tr>
+        <th>
+            Algorithm
+        </th>
+        <th>
+            Worst Case
+        </th>
+        <th>
+            Average Case
+        </th>
+    </tr>
+    <tr>
+        <td width="33%">
+            Selection Sort
+        </td>
+        <td width="33%">
+            O(n<sup>2</sup>)
+        </td>
+        <td width="33%">
+            O(n<sup>2</sup>)
+        </td>
+    </tr>
+    <tr>
+        <td width="33%">
+            Bubble Sort
+        </td>
+        <td width="33%">
+            O(n<sup>2</sup>)
+        </td>
+        <td width="33%">
+            O(n<sup>2</sup>)
+        </td>
+    </tr>
+    <tr>
+        <td width="33%">
+            Insertion Sort
+        </td>
+        <td width="33%">
+            O(n<sup>2</sup>)
+        </td>
+        <td width="33%">
+            O(n<sup>2</sup>)
+        </td>
+    </tr>
+    <tr>
+        <td width="33%">
+            Merge Sort
+        </td>
+        <td width="33%">
+            O(n log n)
+        </td>
+        <td width="33%">
+            O(n log n)
+        </td>
+    </tr>
+    <tr>
+        <td width="33%">
+            HeapSort
+        </td>
+        <td width="33%">
+            O(n log n)
+        </td>
+        <td width="33%">
+            O(n log n)
+        </td>
+    </tr>
+    <tr>
+        <td width="33%">
+            QuickSort 
+        </td>
+        <td width="33%">
+            O(n<sup>2</sup>)
+        </td>
+        <td width="33%">
+            O(n log n)
+        </td>
+    </tr>
+    <tr>
+        <td width="33%">
+            Counting Sort
+        </td>
+        <td width="33%">
+            O(n + k)
+        </td>
+        <td width="33%">
+            O(n + k)
+        </td>
+    </tr>
+    <tr>
+        <td width="33%">
+            Radix Sort
+        </td>
+        <td width="33%">
+            O(nk)
+        </td>
+        <td width="33%">
+            O(nk)
+        </td>
+    </tr>
+    <tr>
+        <td width="33%">
+            Bucket Sort
+        </td>
+        <td width="33%">
+            O(n<sup>2</sup>)
+        </td>
+        <td width="33%">
+            O(n + k)
+        </td>
+    </tr>
+    <tr>
+        <td width="33%">
+            ShellSort
+        </td>
+        <td width="33%">
+            O(n<sup>2</sup>)
+        </td>
+        <td width="33%">
+            O(n log n) to O(n<sup>2</sup>)
+        </td>
+    </tr>
+    <tr>
+        <td width="33%">
+            TimSort
+        </td>
+        <td width="33%">
+            O(n log n)
+        </td>
+        <td width="33%">
+            O(n log n)
+        </td>
+    </tr>
+    <tr>
+        <td width="33%">
+            3-way Merge Sort
+        </td>
+        <td width="33%">
+            O(n log n)
+        </td>
+        <td width="33%">
+            O(n log n)
+        </td>
+    </tr>
+</table>
 
 ### Less common but useful to know
 
