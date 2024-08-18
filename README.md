@@ -50,7 +50,10 @@ Time Complexity of different Data Structures and Algorithms
 
 - Selection Sort
 - Bubble Sort
-- Insertion Sort 
+- Insertion Sort
+```
+//pseudocode
+```
 - Merge Sort 
 - HeapSort 
 - QuickSort (highly efficient)
