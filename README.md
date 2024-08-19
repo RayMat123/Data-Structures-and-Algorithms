@@ -132,6 +132,7 @@ Merge-Sort(A, p, r){
 - TimSort
 - 3-way Merge Sort
 
+### Time Complexities
 <table>
     <tr>
         <th>
