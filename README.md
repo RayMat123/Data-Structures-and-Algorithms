@@ -27,6 +27,13 @@ This repository contains notes for my personal study of data structures and algo
 
 <hr style="border:2px solid gray">
 
+## Tree Data Structures
+
+- Binary Tree
+- Binary Search Tree
+- AVL Tree
+- B-Tree
+
 ## Time Complexity
 ![Time Complexity Chart](./assets/time-complexity.jpg)
 
@@ -296,12 +303,9 @@ Merge-Sort(A, p, r){
 - Binary Search (important)
 - Hashing 
 - Tree-based Search 
-1. Binary Tree Search
-2. AVL Tree Search
-3. Red-Bliack Tree Search
-4. B-Tree Search
-5. Trie (Prefix) Tree Search
-- String Searching 
+1. Breadth First Search
+2. Depth First Search
+
 
 ### Less common but useful to know
 
