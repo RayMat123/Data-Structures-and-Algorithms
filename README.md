@@ -41,7 +41,7 @@ Logarithmic time complexity, operations that reduce the problem size in each ste
 - **O(NlogN):** 
 Log-linear time complexity, operations that divide the problem into smaller subproblems and process each independently.
 
-Time Complexity of different Data Structures and Algorithms
+### Time Complexity of different Data Structures and Algorithms
 
 ![Big O Cheatsheet](./assets/big-o-cheat-sheet-poster.png)
 
