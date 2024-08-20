@@ -4,6 +4,33 @@
 
 This repository contains notes for my personal study of data structures and algorithms. The notes are derived from the book "Introduction to Algorithms" by Cormen, Leiserson, Rivest, and Stein (CLRS), and the lecture notes are taken from course videos of MIT's course Introduction to Algorithms (6.042/SMA 5005). This repository is intended for educational purposes only. While you are welcome to use it for your own learning, contributions are not currently accepted.
 
+## Time Complexity
+![Time Complexity Chart](./assets/time-complexity.jpg)
+
+- **O(n!):** 
+Factorial time complexity, represents the complexity of an algorithm where the time it takes to complete grows factorially with the input size n.
+
+- **O(1):** 
+Constant time complexity, operations that take the same time regardless of input size.
+
+- **O(n):** 
+Linear time complexity, operations that scale linearly with input size.
+
+- **O(n<sup>2</sup>):** 
+Quadratic time complexity, operations that involve nested iterations over input data.
+
+- **O(log n):** 
+Logarithmic time complexity, operations that reduce the problem size in each step.
+
+- **O(n log n):** 
+Log-linear time complexity, operations that divide the problem into smaller subproblems and process each independently.
+
+### Time Complexity of different Data Structures and Algorithms
+
+![Big O Cheatsheet](./assets/big-o-cheat-sheet-poster.png)
+
+<hr style="border:2px solid gray">
+
 ## Elementary Data Structures
 1. Array
 - Fixed Size
@@ -50,33 +77,6 @@ This repository contains notes for my personal study of data structures and algo
 - Segment Tree
 - N-ary Tree
 - B-Tree
-
-## Time Complexity
-![Time Complexity Chart](./assets/time-complexity.jpg)
-
-- **O(n!):** 
-Factorial time complexity, represents the complexity of an algorithm where the time it takes to complete grows factorially with the input size n.
-
-- **O(1):** 
-Constant time complexity, operations that take the same time regardless of input size.
-
-- **O(n):** 
-Linear time complexity, operations that scale linearly with input size.
-
-- **O(n<sup>2</sup>):** 
-Quadratic time complexity, operations that involve nested iterations over input data.
-
-- **O(log n):** 
-Logarithmic time complexity, operations that reduce the problem size in each step.
-
-- **O(n log n):** 
-Log-linear time complexity, operations that divide the problem into smaller subproblems and process each independently.
-
-### Time Complexity of different Data Structures and Algorithms
-
-![Big O Cheatsheet](./assets/big-o-cheat-sheet-poster.png)
-
-<hr style="border:2px solid gray">
 
 ## Sorting Algorithms
 
