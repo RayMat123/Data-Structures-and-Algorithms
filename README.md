@@ -60,34 +60,14 @@ Log-linear time complexity, operations that divide the problem into smaller subp
 ### Core Sorting Algorithms to Master
 
 - Selection Sort
-```pseudocode
-SelectionSort(array, n){
-    for i <- 0 to n-1 do
-        minIndex <- i
-        for j <- i+1 to n-1 do
-            if array[j] < array[minIndex] then
-                minIndex <- j
-        if minIndex != i then
-            swap(array[i], array[minIndex])
-}
-```
+[Pseudocode](Sorting/SelectionSort.md)
 
 - Bubble Sort
 - Insertion Sort
-```pseudocode
-// where A = array and n = size
+[Pseudocode](Sorting/insertionSort.md)
 
-Insertion-Sort(A, n){   // Sorts A[1...n]
-    for j <- 2 to n
-        do key <- A[j]
-        i <- j - 1
-        while i > 0 and A[i] > key
-            do A[i + 1] <- A[i]
-                i <- i - 1 
-        A[i + 1] <- key
-}
-```
 - Merge Sort
+[Pseudocode](Sorting/mergeSort.md) [C++ code](Sorting/mergeSort.cpp)
 
 - HeapSort 
 - QuickSort (highly efficient)
