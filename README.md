@@ -69,18 +69,6 @@ Log-linear time complexity, operations that divide the problem into smaller subp
 
 <hr style="border:2px solid gray">
 
-## Tree Data Structures
-
-- Binary Tree
-- Binary Search Tree
-- Ternary Tree
-- AVL Tree
-- Red Black Tree
-- Segment Tree
-- N-ary Tree
-- B-Tree
-
-<hr style="border:2px solid gray">
 
 ## Sorting Algorithms
 
@@ -98,7 +86,7 @@ Log-linear time complexity, operations that divide the problem into smaller subp
 [Pseudocode](./Sorting/mergeSort.md) [C++ code](./Sorting/mergeSort.cpp)
 
 - HeapSort 
-- QuickSort (highly efficient)
+- QuickSort 
 - Counting Sort 
 - Radix Sort 
 - Bucket Sort 
@@ -267,12 +255,8 @@ Log-linear time complexity, operations that divide the problem into smaller subp
 ### Core Searching Algorithms to Master
 
 - Linear Search 
-- Binary Search (important)
+- Binary Search 
 - Hashing 
-- Tree-based Search 
-1. Breadth First Search
-2. Depth First Search
-
 
 ### Less common but useful to know
 
@@ -281,3 +265,17 @@ Log-linear time complexity, operations that divide the problem into smaller subp
 - Jump Search 
 - Exponential Search
 - Fibonacci Search 
+
+<hr style="border:2px solid gray">
+
+## Tree Data Structures
+
+- Binary Tree
+- Binary Search Tree
+- Ternary Tree
+- AVL Tree
+- Red Black Tree
+- Segment Tree
+- N-ary Tree
+- B-Tree
+
