@@ -54,15 +54,22 @@ This repository contains notes for my personal study of data structures and algo
 ## Time Complexity
 ![Time Complexity Chart](./assets/time-complexity.jpg)
 
+- **O(n!):** 
+Factorial time complexity, represents the complexity of an algorithm where the time it takes to complete grows factorially with the input size n.
+
 - **O(1):** 
 Constant time complexity, operations that take the same time regardless of input size.
-- **O(N):** 
+
+- **O(n):** 
 Linear time complexity, operations that scale linearly with input size.
-- **O(N<sup>2</sup>):** 
+
+- **O(n<sup>2</sup>):** 
 Quadratic time complexity, operations that involve nested iterations over input data.
-- **O(logN):** 
+
+- **O(log n):** 
 Logarithmic time complexity, operations that reduce the problem size in each step.
-- **O(NlogN):** 
+
+- **O(n log n):** 
 Log-linear time complexity, operations that divide the problem into smaller subproblems and process each independently.
 
 ### Time Complexity of different Data Structures and Algorithms
