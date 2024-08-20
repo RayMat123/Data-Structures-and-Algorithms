@@ -44,28 +44,28 @@ Log-linear time complexity, operations that divide the problem into smaller subp
 
 3. Linked List
 - Singly Linked List
-1. [With Both Head and Tail Pointers](./Linked-Lists/SinglyUsingBothHeadTail.cpp)
-2. [With Head Pointer only](./Linked-Lists/singlyUsingHead.cpp)
-- [Doubly Linked List](./Linked-Lists/doubly.cpp)
+1. [With Both Head and Tail Pointers](./Data-Structures/Linked-Lists/SinglyUsingBothHeadTail.cpp)
+2. [With Head Pointer only](./Data-Structures/Linked-Lists/singlyUsingHead.cpp)
+- [Doubly Linked List](./Data-Structures/Linked-Lists/doubly.cpp)
 - Circular Linked List
-1. [Using Singly](./Linked-Lists/circularSingly.cpp)
+1. [Using Singly](./Data-Structures/Linked-Lists/circularSingly.cpp)
 2. Using Doubly
 
 4. Stack
 - Using Fixed Sized Array
 - Using Dynamic Array or Vector
-- [Using Linked Lists](./Stacks/singly.cpp)
+- [Using Linked Lists](./Data-Structures/Stacks/singly.cpp)
 
 5. Queue
 - Using Fixed Sized Array
 - Using Dynamic Array or Vector
-- [Using Linked Lists](./Queues/singly.cpp)
+- [Using Linked Lists](./Data-Structures/Queues/singly.cpp)
 
 6. Hash Table
 - Hash Function
 - Collision Handling
 1. Open Addressing
-2. [Using Chaining](./HashTable/)
+2. [Using Chaining](./Data-Structures/HashTable/)
 
 <hr style="border:2px solid gray">
 
@@ -76,14 +76,14 @@ Log-linear time complexity, operations that divide the problem into smaller subp
 ### Core Sorting Algorithms to Master
 
 - Selection Sort <br>
-[Pseudocode](./Sorting/SelectionSort.md)
+[Pseudocode](./Algorithms/Sorting/SelectionSort.md)
 
 - Bubble Sort
 - Insertion Sort <br>
-[Pseudocode](./Sorting/insertionSort.md)
+[Pseudocode](./Algorithms/Sorting/insertionSort.md)
 
 - Merge Sort <br>
-[Pseudocode](./Sorting/mergeSort.md) [C++ code](./Sorting/mergeSort.cpp)
+[Pseudocode](./Algorithms/Sorting/mergeSort.md) [C++ code](./Algorithms/Sorting/mergeSort.cpp)
 
 - HeapSort 
 - QuickSort 
