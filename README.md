@@ -5,38 +5,38 @@
 This repository contains notes for my personal study of data structures and algorithms. The notes are derived from the book "Introduction to Algorithms" by Cormen, Leiserson, Rivest, and Stein (CLRS), and the lecture notes are taken from course videos of MIT's course Introduction to Algorithms (6.042/SMA 5005). This repository is intended for educational purposes only. While you are welcome to use it for your own learning, contributions are not currently accepted.
 
 ## Elementary Data Structures
-- Array
-1. Fixed Size
-2. Dynamic Size
+1. Array
+- Fixed Size
+- Dynamic Size
 
-- Matrices
-1. Fixed Size
-2. Dynamic Size
+2. Matrices
+- Fixed Size
+- Dynamic Size
 
-- [Linked List](./Linked-Lists)
-1. Singly Linked List
-- [With Both Head and Tail Pointers](./Linked-Lists/SinglyUsingBothHeadTail.cpp)
-- [With Head Pointer only](./Linked-Lists/singlyUsingHead.cpp)
-2. [Doubly Linked List](./Linked-Lists/doubly.cpp)
-3. Circular Linked List
-- [Using Singly](./Linked-Lists/circularSingly.cpp)
-- Using Doubly
+3. [Linked List](./Linked-Lists)
+- Singly Linked List
+1. [With Both Head and Tail Pointers](./Linked-Lists/SinglyUsingBothHeadTail.cpp)
+2. [With Head Pointer only](./Linked-Lists/singlyUsingHead.cpp)
+- [Doubly Linked List](./Linked-Lists/doubly.cpp)
+- Circular Linked List
+1. [Using Singly](./Linked-Lists/circularSingly.cpp)
+2. Using Doubly
 
-- Stack
-1. Using Fixed Sized Array
-2. Using Dynamic Array or Vector
-3. [Using Linked Lists](./Stacks/singly.cpp)
+4. Stack
+- Using Fixed Sized Array
+- Using Dynamic Array or Vector
+- [Using Linked Lists](./Stacks/singly.cpp)
 
-- Queue
-1. Using Fixed Sized Array
-2. Using Dynamic Array or Vector
-3. [Using Linked Lists](./Queues/singly.cpp)
+5. Queue
+- Using Fixed Sized Array
+- Using Dynamic Array or Vector
+- [Using Linked Lists](./Queues/singly.cpp)
 
-- [Hash Table](./HashTable/)
-1. Hash Function
-2. Collision Handling
-- Open Addressing
-- Chaining
+6. [Hash Table](./HashTable/)
+- Hash Function
+- Collision Handling
+1. Open Addressing
+2. Chaining
 
 <hr style="border:2px solid gray">
 
