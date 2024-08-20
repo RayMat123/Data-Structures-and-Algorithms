@@ -13,7 +13,7 @@ This repository contains notes for my personal study of data structures and algo
 - Fixed Size
 - Dynamic Size
 
-3. [Linked List](./Linked-Lists)
+3. Linked List
 - Singly Linked List
 1. [With Both Head and Tail Pointers](./Linked-Lists/SinglyUsingBothHeadTail.cpp)
 2. [With Head Pointer only](./Linked-Lists/singlyUsingHead.cpp)
@@ -32,11 +32,11 @@ This repository contains notes for my personal study of data structures and algo
 - Using Dynamic Array or Vector
 - [Using Linked Lists](./Queues/singly.cpp)
 
-6. [Hash Table](./HashTable/)
+6. Hash Table
 - Hash Function
 - Collision Handling
 1. Open Addressing
-2. Chaining
+2. [Using Chaining](./HashTable/)
 
 <hr style="border:2px solid gray">
 

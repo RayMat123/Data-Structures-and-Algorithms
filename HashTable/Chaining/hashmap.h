@@ -4,9 +4,9 @@ const int TABLE_SIZE = 128;
 
 class HashMap;
 
-class Contact{
+class HashNode{
 public:
-    Contact(const std::string&, const std::string&);
+    HashNode(const std::string&, const std::string&);
 
     const std::string& getName() const;
 
@@ -16,7 +16,7 @@ private:
     std::string name;
     std::string phone;
 
-    Contact* next;
+    HashNode* next;
 
     friend class HashMap;
 };
@@ -34,5 +34,5 @@ public:
     int search(const std::string&);
 
 private:
-    Contact** hashTable;
+    HashNode** hashTable;
 };

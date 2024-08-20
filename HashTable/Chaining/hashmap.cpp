@@ -1,19 +1,19 @@
 #include "hashmap.h"
 
-Contact::Contact(const std::string &key, const std::string &value)
+HashNode::HashNode(const std::string &key, const std::string &value)
 {
     this->name = key;
     this->phone = value;
     this->next = nullptr;
 }
 
-const std::string &Contact::getName() const { return this->name; }
+const std::string &HashNode::getName() const { return this->name; }
 
-const std::string &Contact::getPhone() const { return this->phone; }
+const std::string &HashNode::getPhone() const { return this->phone; }
 
 HashMap::HashMap()
 {
-    hashTable = new Contact *[TABLE_SIZE];
+    hashTable = new HashNode *[TABLE_SIZE];
 
     for (int i = 0; i < TABLE_SIZE; ++i)
     {
@@ -25,10 +25,10 @@ HashMap::~HashMap()
 {
     for (int i = 0; i < TABLE_SIZE; ++i)
     {
-        Contact *entry = hashTable[i];
+        HashNode *entry = hashTable[i];
         while (entry)
         {
-            Contact *prev = entry;
+            HashNode *prev = entry;
             entry = entry->next;
             delete prev;
         }
@@ -58,8 +58,8 @@ void HashMap::add(const std::string &key, const std::string &val)
 {
     int hashVal = hash_func(key);
 
-    Contact *prev = nullptr;
-    Contact *entry = hashTable[hashVal];
+    HashNode *prev = nullptr;
+    HashNode *entry = hashTable[hashVal];
 
     while (entry)
     {
@@ -68,7 +68,7 @@ void HashMap::add(const std::string &key, const std::string &val)
     }
     if (!entry)
     {
-        entry = new Contact(key, val);
+        entry = new HashNode(key, val);
         if (!prev)
             hashTable[hashVal] = entry;
 
@@ -88,7 +88,7 @@ int HashMap::search(const std::string &key)
     bool flag = false;
 
     int hash_val = hash_func(key);
-    Contact* entry = hashTable[hash_val];
+    HashNode* entry = hashTable[hash_val];
     while (entry != NULL)
     {
         if (entry->name == key)
