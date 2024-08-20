@@ -6,24 +6,37 @@ This repository contains notes for my personal study of data structures and algo
 
 ## Elementary Data Structures
 - Array
+1. Fixed Size
+2. Dynamic Size
+
 - Matrices
-- Linked List
+1. Fixed Size
+2. Dynamic Size
+
+- [Linked List](./Linked-Lists)
 1. Singly Linked List
-2. Doubly Linked List
-3. Circular Singly Linked List
-4. Circular Doubly Linked List
+- [With Both Head and Tail Pointers](./Linked-Lists/SinglyUsingBothHeadTail.cpp)
+- [With Head Pointer only](./Linked-Lists/singlyUsingHead.cpp)
+2. [Doubly Linked List](./Linked-Lists/doubly.cpp)
+3. Circular Linked List
+- [Using Singly](./Linked-Lists/circularSingly.cpp)
+- Using Doubly
+
 - Stack
-1. Stack Implementation using Fixed Sized Array
-2. Stack Implementation using Dynamic Array or Vector
-3. Stack Implementation Linked Lists
+1. Using Fixed Sized Array
+2. Using Dynamic Array or Vector
+3. [Using Linked Lists](./Stacks/singly.cpp)
+
 - Queue
-1. Queue Implementation using Fixed Sized Array
-2. Queue Implementation using Dynamic Array or Vector
-3. Queue Implementation Linked Lists
-- Hash Table
+1. Using Fixed Sized Array
+2. Using Dynamic Array or Vector
+3. [Using Linked Lists](./Queues/singly.cpp)
+
+- [Hash Table](./HashTable/)
 1. Hash Function
-2. Open Addressing
-3. Chaining
+2. Collision Handling
+- Open Addressing
+- Chaining
 
 <hr style="border:2px solid gray">
 
@@ -31,7 +44,11 @@ This repository contains notes for my personal study of data structures and algo
 
 - Binary Tree
 - Binary Search Tree
+- Ternary Tree
 - AVL Tree
+- Red Black Tree
+- Segment Tree
+- N-ary Tree
 - B-Tree
 
 ## Time Complexity
@@ -59,15 +76,15 @@ Log-linear time complexity, operations that divide the problem into smaller subp
 
 ### Core Sorting Algorithms to Master
 
-- Selection Sort
-[Pseudocode](Sorting/SelectionSort.md)
+- Selection Sort <br>
+[Pseudocode](./Sorting/SelectionSort.md)
 
 - Bubble Sort
-- Insertion Sort
-[Pseudocode](Sorting/insertionSort.md)
+- Insertion Sort <br>
+[Pseudocode](./Sorting/insertionSort.md)
 
-- Merge Sort
-[Pseudocode](Sorting/mergeSort.md) [C++ code](Sorting/mergeSort.cpp)
+- Merge Sort <br>
+[Pseudocode](./Sorting/mergeSort.md) [C++ code](./Sorting/mergeSort.cpp)
 
 - HeapSort 
 - QuickSort (highly efficient)
