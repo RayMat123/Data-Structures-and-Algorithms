@@ -49,7 +49,7 @@ Log-linear time complexity, operations that divide the problem into smaller subp
 - [Doubly Linked List](./Data-Structures/Linked-Lists/doubly.cpp)
 - Circular Linked List
 1. [Using Singly](./Data-Structures/Linked-Lists/circularSingly.cpp)
-2. Using Doubly
+2. [Using Doubly](./Data-Structures/Linked-Lists/circularDoubly.cpp)
 
 4. Stack
 - Using Fixed Sized Array
