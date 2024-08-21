@@ -69,6 +69,30 @@ Log-linear time complexity, operations that divide the problem into smaller subp
 
 <hr style="border:2px solid gray">
 
+## Basic Operations
+
+- **Access:** Retrieve an element from the data structure.
+- **Insert:** Add a new element into the data structure.
+- **Delete:** Remove an existing element from the data structure.
+- **Update:** Modify an element in the data structure.
+- **Search:** Locate an element by its value or key.
+- **Traverse:** Visit each element in the data structure, often used to perform operations on all elements.
+- **Check:** Determine certain properties or conditions, such as whether the structure is empty or whether an element exists. 
+
+### Why Sorting is not mentioned in basic operations?
+
+Sorting is typically not included as a fundamental operation for all data structures because:
+
+**Not All Data Structures Support Sorting Directly:** <br>
+Some data structures, like stacks or queues, are inherently unordered and don't support direct sorting operations. Sorting is more relevant to data structures like arrays or lists, where elements have a specific order.
+
+**Sorting is an Operation on Data, Not a Data Structure:** <br>
+Sorting is often considered an algorithmic operation applied to data structures rather than a fundamental operation of the data structures themselves. For example, you sort an array using sorting algorithms, but sorting isn't a built-in operation of the array data structure.
+
+**Sorting Complexity:** <br>
+Sorting introduces complexity that depends on the type of data structure and the algorithm used. It's not a basic operation like access or insertion, which are more universally applicable.
+
+<hr style="border:2px solid gray">
 
 ## Sorting Algorithms
 
