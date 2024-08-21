@@ -937,3 +937,8 @@ Average case for all basic operations on hash table is O(1) and Worst case if th
 - N-ary Tree
 - B-Tree
 
+## Tree Traversal
+
+- Pre Order
+- In Order
+- Post Order 
