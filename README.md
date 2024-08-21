@@ -71,13 +71,73 @@ Log-linear time complexity, operations that divide the problem into smaller subp
 
 ## Basic Operations
 
-- **Access:** Retrieve an element from the data structure.
-- **Insert:** Add a new element into the data structure.
-- **Delete:** Remove an existing element from the data structure.
-- **Update:** Modify an element in the data structure.
-- **Search:** Locate an element by its value or key.
-- **Traverse:** Visit each element in the data structure, often used to perform operations on all elements.
-- **Check:** Determine certain properties or conditions, such as whether the structure is empty or whether an element exists. 
+<table>
+    <tr>
+        <th>
+            Operation
+        </th>
+        <th>
+            Detail
+        </th>
+    </tr>
+    <tr>
+        <td>
+            Access
+        </td>
+        <td>
+            Retrieve an element from the data structure.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Insert
+        </td>
+        <td>
+            Add a new element into the data structure.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Delete
+        </td>
+        <td>
+            Remove an existing element from the data structure.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Update
+        </td>
+        <td>
+            Modify an element in the data structure.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Search
+        </td>
+        <td>
+            Locate an element by its value or key.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Traverse
+        </td>
+        <td>
+            Visit each element in the data structure, often used to perform operations on all elements.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Check
+        </td>
+        <td>
+            Determine certain properties or conditions, such as whether the structure is empty or whether an element exists.
+        </td>
+    </tr>
+</table>
+
 
 ### Why Sorting is not mentioned in basic operations?
 
