@@ -152,6 +152,580 @@ Sorting is often considered an algorithmic operation applied to data structures 
 **Sorting Complexity:** <br>
 Sorting introduces complexity that depends on the type of data structure and the algorithm used. It's not a basic operation like access or insertion, which are more universally applicable.
 
+### Time Complexity of Basic Operations on Elementary Data Structures
+
+**Array**
+
+<table>
+    <tr>
+        <th>
+            Operation
+        </th>
+        <th>
+            Time Complexity
+        </th>
+        <th>
+            Note
+        </th>
+    </tr>
+    <tr>
+        <td>
+            Access
+        </td>
+        <td>
+            O(1)
+        </td>
+        <td>
+            -
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Insert
+        </td>
+        <td>
+            O(n)/O(1)
+        </td>
+        <td>
+            Inserting from an arbitrary position / Inserting at the end if there is space
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Delete
+        </td>
+        <td>
+            O(n)/O(1)
+        </td>
+        <td>
+            deleting from an arbitrary position / deleting from the end
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Update
+        </td>
+        <td>
+            O(1)
+        </td>
+        <td>
+            -
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Search
+        </td>
+        <td>
+            O(n)/O(log n)
+        </td>
+        <td>
+            Linear search / Binary search if sorted
+        </td>
+    </tr>
+</table>
+
+**Matrix**
+
+<table>
+    <tr>
+        <th>
+            Operation
+        </th>
+        <th>
+            Time Complexity
+        </th>
+        <th>
+            Note
+        </th>
+    </tr>
+    <tr>
+        <td>
+            Access
+        </td>
+        <td>
+            O(1)
+        </td>
+        <td>
+            -
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Insert
+        </td>
+        <td>
+            O(m . n)
+        </td>
+        <td>
+            If resizing or modifying a specific element in a fixed-size matrix
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Delete
+        </td>
+        <td>
+            O(m . n)
+        </td>
+        <td>
+            Similar to insert if resizing or modifying
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Update
+        </td>
+        <td>
+            O(1)
+        </td>
+        <td>
+            -
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Search
+        </td>
+        <td>
+            O(m . n) / O(log n)
+        </td>
+        <td>
+            Linear search / if sorted
+        </td>
+    </tr>
+</table>
+
+**Linked List**
+
+- **With Head Pointer Only:**
+<table>
+    <tr>
+        <th>
+            Operation
+        </th>
+        <th>
+            Time Complexity
+        </th>
+        <th>
+            Note
+        </th>
+    </tr>
+    <tr>
+        <td>
+            Access
+        </td>
+        <td>
+            O(n)
+        </td>
+        <td>
+            -
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Insert
+        </td>
+        <td>
+            O(1)/O(n)
+        </td>
+        <td>
+            At the head / At an arbitrary position
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Delete
+        </td>
+        <td>
+            O(1)/O(n)
+        </td>
+        <td>
+            At the head / At an arbitrary position
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Update
+        </td>
+        <td>
+            O(n)
+        </td>
+        <td>
+            -
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Search
+        </td>
+        <td>
+            O(n)
+        </td>
+        <td>
+            Linear search 
+        </td>
+    </tr>
+</table>
+
+- **With Both Head and Tail Pointers:**
+<table>
+    <tr>
+        <th>
+            Operation
+        </th>
+        <th>
+            Time Complexity
+        </th>
+        <th>
+            Note
+        </th>
+    </tr>
+    <tr>
+        <td>
+            Access
+        </td>
+        <td>
+            O(n)
+        </td>
+        <td>
+            -
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Insert
+        </td>
+        <td>
+            O(1)/O(n)
+        </td>
+        <td>
+            At the head or tail /  At an arbitrary position
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Delete
+        </td>
+        <td>
+            O(1)/O(n)
+        </td>
+        <td>
+            At the head or tail / At an arbitrary position
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Update
+        </td>
+        <td>
+            O(n)
+        </td>
+        <td>
+            -
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Search
+        </td>
+        <td>
+            O(n)
+        </td>
+        <td>
+            Linear search 
+        </td>
+    </tr>
+</table>
+
+**Stack**
+
+- **Array:**
+<table>
+    <tr>
+        <th>
+            Operation
+        </th>
+        <th>
+            Time Complexity
+        </th>
+        <th>
+            Note
+        </th>
+    </tr>
+    <tr>
+        <td>
+            Access
+        </td>
+        <td>
+            O(1)
+        </td>
+        <td>
+            -
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Push
+        </td>
+        <td>
+            O(1)/O(n)
+        </td>
+        <td>
+            Fixed-sized or No resizing required /  When resizing is required
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Pop
+        </td>
+        <td>
+            O(1)
+        </td>
+        <td>
+            -
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Update
+        </td>
+        <td>
+            O(1)
+        </td>
+        <td>
+            -
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Search
+        </td>
+        <td>
+            O(n)
+        </td>
+        <td>
+            -
+        </td>
+    </tr>
+</table>
+
+- **Linked List:**
+<table>
+    <tr>
+        <th>
+            Operation
+        </th>
+        <th>
+            Time Complexity
+        </th>
+        <th>
+            Note
+        </th>
+    </tr>
+    <tr>
+        <td>
+            Access
+        </td>
+        <td>
+            O(n)
+        </td>
+        <td>
+            -
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Push
+        </td>
+        <td>
+            O(1)
+        </td>
+        <td>
+            At the Head
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Pop
+        </td>
+        <td>
+            From the Head
+        </td>
+        <td>
+            -
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Update
+        </td>
+        <td>
+            O(n)
+        </td>
+        <td>
+            -
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Search
+        </td>
+        <td>
+            O(n)
+        </td>
+        <td>
+            -
+        </td>
+    </tr>
+</table>
+
+**Queue**
+
+- **Array:**
+<table>
+    <tr>
+        <th>
+            Operation
+        </th>
+        <th>
+            Time Complexity
+        </th>
+        <th>
+            Note
+        </th>
+    </tr>
+    <tr>
+        <td>
+            Access
+        </td>
+        <td>
+            O(1)
+        </td>
+        <td>
+            -
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Enqueue
+        </td>
+        <td>
+            O(1)/O(n)
+        </td>
+        <td>
+            Fixed-sized or No resizing required / When resizing required
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Dequeue
+        </td>
+        <td>
+            O(1)
+        </td>
+        <td>
+            -
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Update
+        </td>
+        <td>
+            O(1)
+        </td>
+        <td>
+            -
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Search
+        </td>
+        <td>
+            O(n)
+        </td>
+        <td>
+            -
+        </td>
+    </tr>
+</table>
+
+- **Linked List:**
+<table>
+    <tr>
+        <th>
+            Operation
+        </th>
+        <th>
+            Time Complexity
+        </th>
+        <th>
+            Note
+        </th>
+    </tr>
+    <tr>
+        <td>
+            Access
+        </td>
+        <td>
+            O(n)
+        </td>
+        <td>
+            -
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Enqueue
+        </td>
+        <td>
+            O(1)
+        </td>
+        <td>
+            At the Tail
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Dequeue
+        </td>
+        <td>
+            O(1)
+        </td>
+        <td>
+            From the Head
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Update
+        </td>
+        <td>
+            O(n)
+        </td>
+        <td>
+            -
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Search
+        </td>
+        <td>
+            O(n)
+        </td>
+        <td>
+            -
+        </td>
+    </tr>
+</table>
+
+**Hash Table**
+
+Average case for all basic operations on hash table is O(1) and Worst case if there are many collisions in Open Addressing or all elements hash into the same bucket in Chaining is O(n).
+
 <hr style="border:2px solid gray">
 
 ## Sorting Algorithms
