@@ -36,13 +36,13 @@ Log-linear time complexity, operations that divide the problem into smaller subp
 ## Elementary Data Structures
 1. Array
 - Fixed Size
-- Dynamic Size
+- [Dynamic Size](./Data-Structures/Array/array.cpp)
 
 2. Matrices
 - Fixed Size
 - Dynamic Size
 
-3. Linked List
+3. [Linked List](./Data-Structures/Linked-Lists/Linked-Lists-Notes.pdf)
 - Singly Linked List
 1. [With Both Head and Tail Pointers](./Data-Structures/Linked-Lists/SinglyUsingBothHeadTail.cpp)
 2. [With Head Pointer only](./Data-Structures/Linked-Lists/singlyUsingHead.cpp)
