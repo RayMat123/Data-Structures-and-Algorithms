@@ -2,7 +2,7 @@
 // A = array and n = size
 
 Insertion-Sort(A, n) {  // Sorts A[0...n-1]
-    for j <- 1 to n-1
+    for j <- 1 to n
         do key <- A[j]
         i <- j - 1
         while i >= 0 and A[i] > key
