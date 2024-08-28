@@ -742,16 +742,16 @@ Average case for all basic operations on hash table is O(1) and Worst case if th
 ### Core Sorting Algorithms to Master
 
 - Selection Sort <br>
-[Pseudocode](./Algorithms/Sorting/SelectionSort.md) 
+[Pseudocode](./Algorithms/Sorting/Pseudocode/SelectionSort.md) 
 
 - Bubble Sort <br>
-[Pseudocode](./Algorithms/Sorting/bubbleSort.md) [C++ code](./Algorithms/Sorting/bubbleSort.cpp) [Python code](./Algorithms/Sorting/bubbleSort.py)
+[Pseudocode](./Algorithms/Sorting/bubbleSort.md) [C++ code](./Algorithms/Sorting/C++-Code/bubbleSort.cpp) [Python code](./Algorithms/Sorting/Python-Code/bubbleSort.py)
 
 - Insertion Sort <br>
-[Pseudocode](./Algorithms/Sorting/insertionSort.md) [C++ code](./Algorithms/Sorting/insertionSort.cpp)
+[Pseudocode](./Algorithms/Sorting/Pseudocode/insertionSort.md) [C++ code](./Algorithms/Sorting/C++-Code/insertionSort.cpp)
 
 - Merge Sort <br>
-[Pseudocode](./Algorithms/Sorting/mergeSort.md) [C++ code](./Algorithms/Sorting/mergeSort.cpp)
+[Pseudocode](./Algorithms/Sorting/Pseudocode/mergeSort.md) [C++ code](./Algorithms/Sorting/C++-Code/mergeSort.cpp)
 
 - HeapSort 
 - QuickSort 
