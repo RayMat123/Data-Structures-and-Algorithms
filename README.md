@@ -48,26 +48,32 @@ Log-linear time complexity, operations that divide the problem into smaller subp
 [C++ code](./Data-Structures/Linked-Lists/SinglyUsingBothHeadTail.cpp) [Python code](./Data-Structures/Linked-Lists/singlyBoth.py)
 2. With Head Pointer only <br>
 [C++ code](./Data-Structures/Linked-Lists/singlyUsingHead.cpp)
-- [Doubly Linked List](./Data-Structures/Linked-Lists/doubly.cpp)
+- Doubly Linked List <br>
+[C++ code](./Data-Structures/Linked-Lists/doubly.cpp)
 - Circular Linked List
-1. [Using Singly](./Data-Structures/Linked-Lists/circularSingly.cpp)
-2. [Using Doubly](./Data-Structures/Linked-Lists/circularDoubly.cpp)
+1. Using Singly <br>
+[C++ code](./Data-Structures/Linked-Lists/circularSingly.cpp)
+2. Using Doubly <br>
+[C++ code](./Data-Structures/Linked-Lists/circularDoubly.cpp)
 
 4. Stack
 - Using Fixed Sized Array
 - Using Dynamic Array or Vector
-- [Using Linked Lists](./Data-Structures/Stacks/singly.cpp)
+- Using Linked Lists <br>
+[C++ code](./Data-Structures/Stacks/singly.cpp)
 
 5. Queue
 - Using Fixed Sized Array
 - Using Dynamic Array or Vector
-- [Using Linked Lists](./Data-Structures/Queues/singly.cpp)
+- Using Linked Lists <br> 
+[C++ code](./Data-Structures/Queues/singly.cpp)
 
 6. Hash Table
 - Hash Function
 - Collision Handling
 1. Open Addressing
-2. [Using Chaining](./Data-Structures/HashTable/)
+2. Using Chaining <br> 
+[C++ code](./Data-Structures/HashTable/)
 
 <hr style="border:2px solid gray">
 
