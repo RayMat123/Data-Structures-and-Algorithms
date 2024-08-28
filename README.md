@@ -45,7 +45,7 @@ Log-linear time complexity, operations that divide the problem into smaller subp
 3. [Linked List](./Data-Structures/Linked-Lists/Linked-Lists-Notes.pdf)
 - Singly Linked List
 1. With Both Head and Tail Pointers <br>
-[C++ code](./Data-Structures/Linked-Lists/SinglyUsingBothHeadTail.cpp)
+[C++ code](./Data-Structures/Linked-Lists/SinglyUsingBothHeadTail.cpp) [Python code](./Data-Structures/Linked-Lists/singlyBoth.py)
 2. With Head Pointer only <br>
 [C++ code](./Data-Structures/Linked-Lists/singlyUsingHead.cpp)
 - [Doubly Linked List](./Data-Structures/Linked-Lists/doubly.cpp)
