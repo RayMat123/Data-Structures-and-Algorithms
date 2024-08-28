@@ -1,6 +1,6 @@
 ```pseudocode
 SelectionSort(array, n){
-    for i <- 0 to n-1 do
+    for i <- 0 to n do
         minIndex <- i
         for j <- i+1 to n-1 do
             if array[j] < array[minIndex] then
