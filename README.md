@@ -745,7 +745,7 @@ Average case for all basic operations on hash table is O(1) and Worst case if th
 [Pseudocode](./Algorithms/Sorting/Pseudocode/SelectionSort.md) 
 
 - Bubble Sort <br>
-[Pseudocode](./Algorithms/Sorting/bubbleSort.md) [C++ code](./Algorithms/Sorting/C++-Code/bubbleSort.cpp) [Python code](./Algorithms/Sorting/Python-Code/bubbleSort.py)
+[Pseudocode](./Algorithms/Sorting/Pseudocode/bubbleSort.md) [C++ code](./Algorithms/Sorting/C++-Code/bubbleSort.cpp) [Python code](./Algorithms/Sorting/Python-Code/bubbleSort.py)
 
 - Insertion Sort <br>
 [Pseudocode](./Algorithms/Sorting/Pseudocode/insertionSort.md) [C++ code](./Algorithms/Sorting/C++-Code/insertionSort.cpp)
