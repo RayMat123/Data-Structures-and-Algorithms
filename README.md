@@ -751,7 +751,7 @@ Average case for all basic operations on hash table is O(1) and Worst case if th
 [Pseudocode](./Algorithms/Sorting/Pseudocode/insertionSort.md) [C++ code](./Algorithms/Sorting/C++-Code/insertionSort.cpp) [Python Code](./Algorithms/Sorting/Python-Code/insertionSort.py)
 
 - Merge Sort <br>
-[Pseudocode](./Algorithms/Sorting/Pseudocode/mergeSort.md) [C++ code](./Algorithms/Sorting/C++-Code/mergeSort.cpp)
+[Pseudocode](./Algorithms/Sorting/Pseudocode/mergeSort.md) [C++ code](./Algorithms/Sorting/C++-Code/mergeSort.cpp) [Python Code](./Algorithms/Sorting/Python-Code/mergeSort.py)
 
 - HeapSort 
 - QuickSort 
