@@ -753,14 +753,30 @@ Average case for all basic operations on hash table is O(1) and Worst case if th
 - Merge Sort <br>
 [Pseudocode](./Algorithms/Sorting/Pseudocode/mergeSort.md) [C++ code](./Algorithms/Sorting/C++-Code/mergeSort.cpp) [Python Code](./Algorithms/Sorting/Python-Code/mergeSort.py)
 
-- HeapSort 
-- QuickSort 
-- Counting Sort 
-- Radix Sort 
-- Bucket Sort 
-- ShellSort
-- TimSort
-- 3-way Merge Sort
+- HeapSort <br>
+[Pesudocode](./Algorithms/Sorting/Pseudocode/heapSort.md)
+
+- QuickSort <br>
+[Pseudocode](./Algorithms/Sorting/Pseudocode/quickSort.md)
+
+- Counting Sort <br>
+[Pseudocode](./Algorithms/Sorting/Pseudocode/countingSort.md)
+
+- Radix Sort <br>
+[Pseudocode](./Algorithms/Sorting/Pseudocode/radixSort.md)
+
+- Bucket Sort <br>
+[Pseudocode](./Algorithms/Sorting/Pseudocode/bucketSort.md)
+
+- ShellSort <br>
+[Pseudocode](./Algorithms/Sorting/Pseudocode/shellSort.md)
+
+- TimSort <br>
+[Pseudocode](./Algorithms/Sorting/Pseudocode/timSort.md)
+
+- 3-way Merge Sort <br>
+[Pseudocode](./Algorithms/Sorting/Pseudocode/threeWayMergeSort.md)
+
 
 ### Time Complexities
 <table>
