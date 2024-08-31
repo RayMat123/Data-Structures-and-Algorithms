@@ -1,3 +1,4 @@
+```pseudocode
 ShellSort(array):
     n <- length(array)
     gap <- n / 2
@@ -10,3 +11,4 @@ ShellSort(array):
                 j <- j - gap
             array[j] <- temp
         gap <- gap / 2
+```

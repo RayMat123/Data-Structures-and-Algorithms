@@ -1,3 +1,4 @@
+```pseudocode
 ThreeWayMergeSort(array, left, right):
     if left < right:
         third <- (right - left) / 3
@@ -83,3 +84,4 @@ Merge(array, left, mid1, mid2, right):
         array[m] <- R[k]
         k <- k + 1
         m <- m + 1
+```

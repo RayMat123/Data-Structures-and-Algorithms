@@ -1,3 +1,4 @@
+```pseudocode
 HeapSort(array):
     BuildMaxHeap(array)
     for i from length(array) - 1 down to 1:
@@ -21,3 +22,4 @@ MaxHeapify(array, i):
     if largest != i:
         Swap(array[i], array[largest])
         MaxHeapify(array, largest)
+```

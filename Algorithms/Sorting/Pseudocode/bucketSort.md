@@ -1,3 +1,4 @@
+```pseudocode
 BucketSort(array):
     minVal <- min(array)
     maxVal <- max(array)
@@ -11,3 +12,4 @@ BucketSort(array):
     for each bucket in buckets:
         Sort(bucket)  // Use any efficient sorting algorithm here
         Concatenate(bucket to array)
+```

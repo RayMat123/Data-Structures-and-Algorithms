@@ -1,3 +1,4 @@
+```pseudocode
 TimSort(array):
     minRun <- 32
     n <- length(array)
@@ -54,3 +55,4 @@ Merge(array, left, mid, right):
         array[k] <- R[j]
         j <- j + 1
         k <- k + 1
+```

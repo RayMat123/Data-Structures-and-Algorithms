@@ -1,3 +1,4 @@
+```pseudocode
 RadixSort(array):
     maxVal <- max(array)
     exp <- 1
@@ -24,3 +25,4 @@ CountingSortByDigit(array, exp):
     
     for i from 0 to n - 1:
         array[i] <- output[i]
+```

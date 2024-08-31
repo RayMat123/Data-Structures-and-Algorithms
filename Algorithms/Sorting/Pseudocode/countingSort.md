@@ -1,3 +1,4 @@
+```pseudocode
 CountingSort(array):
     maxVal <- max(array)
     minVal <- min(array)
@@ -17,3 +18,4 @@ CountingSort(array):
     
     for i from 0 to length(array) - 1:
         array[i] <- output[i]
+```

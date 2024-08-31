@@ -1,3 +1,4 @@
+```pseudocode
 QuickSort(array, low, high):
     if low < high:
         pivotIndex <- Partition(array, low, high)
@@ -13,3 +14,4 @@ Partition(array, low, high):
             Swap(array[i], array[j])
     Swap(array[i + 1], array[high])
     return i + 1
+```
