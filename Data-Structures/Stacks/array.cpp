@@ -4,28 +4,23 @@ template <typename T>
 class Stack
 {
 public:
-    // Default constructor
     Stack() : capacity(0), size(0), arr(nullptr) {}
 
-    // Constructor with initial value
     Stack(T val) : capacity(1), size(1)
     {
         arr = new T[capacity];
         arr[0] = val;
     }
 
-    // Destructor to clean up memory
     ~Stack()
     {
         delete[] arr;
     }
 
-    // Push method to add an element to the stack
     void push(T val)
     {
         if (capacity <= size)
         {
-            // Increase capacity, create new array and copy existing elements
             capacity = (capacity == 0) ? 1 : capacity * 2;
             T *newArr = new T[capacity];
             for (int i = 0; i < size; ++i)
@@ -39,7 +34,6 @@ public:
         size++;
     }
 
-    // Pop method to remove the top element
     void pop()
     {
         if (size > 0)
@@ -52,7 +46,6 @@ public:
         }
     }
 
-    // Method to get the top element without removing it
     T top() const
     {
         if (size > 0)
@@ -62,13 +55,11 @@ public:
         throw std::out_of_range("Stack is empty: No elements to return.");
     }
 
-    // Method to check if the stack is empty
     bool isEmpty() const
     {
         return size == 0;
     }
 
-    // Method to get the current size of the stack
     int getSize() const
     {
         return size;
