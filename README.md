@@ -51,14 +51,12 @@ Log-linear time complexity, operations that divide the problem into smaller subp
 [C++ code](./Data-Structures/Linked-Lists/circularDoubly.cpp)
 
 4. Stack
-- Using Fixed Sized Array
-- Using Dynamic Array or Vector
+- Using Arrays
 - Using Linked Lists <br>
 [C++ code](./Data-Structures/Stacks/singly.cpp)
 
 5. Queue
-- Using Fixed Sized Array
-- Using Dynamic Array or Vector
+- Using Arrays
 - Using Linked Lists <br> 
 [C++ code](./Data-Structures/Queues/singly.cpp)
 
