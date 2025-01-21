@@ -84,6 +84,54 @@ public:
         }
     }
 
+    void deleteRecursive(int val, int i){
+        int left = leftChild(i);
+        int right = rightChild(i);
+        
+        if(i >= capacity || root[i] == val){
+            root[i] == -1;
+            size--;
+            return;
+        }
+
+        deleteRecursive(val, left);
+        deleteRecursive(val, right);
+    }
+
+    void del(int val){
+        if(root[0] == val){
+            int left = leftChild(0);
+            int right = rightChild(0);
+        }
+
+        deleteRecursive(val, 0);
+    }
+
+    int searchRecursive(int val, int i){
+        if(i >= capacity) return -1;
+
+        int left = leftChild(i);
+        int right = rightChild(i);
+        
+        if(val < root[i])
+            i = searchRecursive(val, left);
+        if(val > root[i])
+            i = searchRecursive(val, right);
+
+        return (root[i] == val) ? i : searchRecursive(val, i);
+    }
+
+    void search(int val){
+        int x = searchRecursive(val, 0);
+
+        if(x == -1){
+            std::cout << "Value not found." << std::endl;
+            return;
+        }
+
+        std::cout << "Value found at index " << x << std::endl;
+    }
+
     void preorder(int i) {
         if (i >= capacity || root[i] == -1) return;
 
@@ -111,8 +159,8 @@ public:
 
     void inorderTraversal() {
         std::cout << "Inorder Traversal: " << std::endl;
-
         inorder(0);
+        std::cout << " END" << std::endl;
     }
 
     void postorder(int i){
@@ -128,9 +176,17 @@ public:
     }
 
     void postorderTraversal() {
-        std::cout << "Preorder Traversal: " << std::endl;
-
+        std::cout << "Postder Traversal: " << std::endl;
         postorder(0);
+        std::cout << " END" << std::endl;
+    }
+
+    void print(){
+        std::cout << std::endl;
+        for(int i = 0; i < capacity; i++)
+            std::cout << root[i] << " ";
+
+        std::cout << std::endl;
     }
 };
 
@@ -146,6 +202,11 @@ int main() {
     bst.inorderTraversal();
 
     bst.postorderTraversal();
+
+    bst.search(10);
+
+
+    bst.print();
 
     return 0;
 }
